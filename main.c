@@ -6,8 +6,8 @@ int main(void) {
     double result;
 
     scanf("%d",&x);
-    result=1.0/(x+100);
-    printf("%.15f",result);
+    result=1.0/((double)x+100);
+    printf("%.15f\n",result);
 
 
     
